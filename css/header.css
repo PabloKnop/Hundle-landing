@@ -1,0 +1,20 @@
+header{
+   max-width: 1260px;
+   margin: 0 auto;
+   padding: 40px 40px;
+   box-sizing: border-box;
+}
+
+header picture img {
+  width: 200px;
+}
+
+@media (max-width:850px){
+  header picture img {
+    width: 150px;
+  }
+
+  header{
+    padding: 40px 20px;
+ }
+}
